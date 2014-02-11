@@ -1,0 +1,27 @@
+http://www.git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository
+
+
+git init
+
+git clone git://github.com/schacon/grit.git mygrit
+
+git status
+=on branch master
+
+git diff (liat file yang diedit)
+
+git diff --cached
+
+git commit -m "Story 182: Fix benchmarks for speed"
+
+git log
+
+
+
+Git has a number of different transfer protocols you can use. The previous example uses the git:// protocol, but you may also see http(s):// or user@server:/path.git, which uses the SSH transfer protocol. Chapter 4 will introduce all of the available options the server can set up to access your Git repository and the pros and 
+
+=======
+
+baca last
+
+http://www.git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History
